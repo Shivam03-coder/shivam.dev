@@ -31,10 +31,9 @@ function HomePage({ setSelectedPage }) {
                 <Typewriter
                   className="font-semibold text-black "
                   words={[
-                    " Developer",
-                    " Designer",
-                    " Photographer",
-                    " Thinker",
+                    " DEVELOPER",
+                    " DESIGNER",
+                    " THINKER",
                   ]}
                   loop={false}
                   cursor
@@ -73,7 +72,7 @@ function HomePage({ setSelectedPage }) {
                   RESUME
                 </a>
               </div>
-              <div className="icons max-lg:hidden mx-auto mt-10">
+              <div className="icons max-md:pb-10 mx-auto mt-10">
                 <SocoalMediaHandles />
               </div>
             </div>
@@ -86,9 +85,6 @@ function HomePage({ setSelectedPage }) {
                 alt=""
                 id="MyProfilePhoto"
               />
-              <div className="icons lg:hidden text-center mx-auto mt-20">
-                <SocoalMediaHandles />
-              </div>
             </div>
           </motion.div>
         </section>

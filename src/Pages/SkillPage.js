@@ -6,7 +6,7 @@ function SkillPage() {
   return (
     <>
       <motion.div
-        className="cardItems pb-10 md:py-20 grid md:grid-cols-3 lg:grid-cols-4  mx-auto gap-28 w-11/12"
+        className="cardItems py-10 md:py-20 grid md:grid-cols-3 lg:grid-cols-4  mx-auto gap-28 w-11/12"
         id="skills"
       >
         {SkillsData?.map((items) => (
