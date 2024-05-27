@@ -22,6 +22,10 @@ body,
   @apply text-[white];
 }
 
+body::-webkit-scrollbar {
+  width: 0px;
+}
+
 html {
   scroll-behavior: smooth;
   user-select: none;
